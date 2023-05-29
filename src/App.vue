@@ -13,7 +13,7 @@
   font-family: sans-serif;
 }
 html {
-  font-size: 10px;
+  font-size: 9px;
 }
 body {
   overflow: hidden;

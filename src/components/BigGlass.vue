@@ -5,8 +5,8 @@
       :style="{ height: upperHeight }"
       v-if="remainingVolume !== 0"
     >
-      <p>{{ remainingVolume }}L</p>
-      <p>remained</p>
+      <span>{{ remainingVolume }}L</span>
+      <span>remained</span>
     </div>
     <div
       class="lower-lavel"
@@ -34,7 +34,7 @@ export default {
 
 <style scoped>
 .container_big--jar {
-  height: 25rem;
+  height: 35rem;
   width: 17rem;
   border-radius: 0 0 3rem 3rem;
   border: 3.5px solid #4444c3;
@@ -66,7 +66,7 @@ export default {
 }
 
 .upper-level {
-  top: 0%;
+  line-height: 0.5;
 }
 
 .lower-lavel {
